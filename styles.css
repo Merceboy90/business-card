@@ -1,0 +1,63 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: 6px solid burlywood;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #2b2839;
+    color:  burlywood;
+    border-bottom: 6px solid  burlywood;
+    border-radius: 40px;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+i {
+    font-style: normal;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info {
+    border: 1px solid  burlywood;
+    border-radius: 20px;
+    padding: 0 20px;
+    
+}
+
+.bottom-card {
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    border: 1px solid  burlywood;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight:  bold;
+}
+
+.italian {
+    font-style: italic;
+}
